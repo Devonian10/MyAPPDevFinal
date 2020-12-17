@@ -40,5 +40,5 @@ class Filters extends BaseConfig
 	//    'isLoggedIn' => ['before' => ['account/*', 'profiles/*']],
 	// Catatan yg dibawah , ini bisa dinonaktifkan dibawah public filters, untuk mengaktifkan filters dibawah ini, 
 	// anda harus login atau membuat akun baru, nanti akan terkirim email kalian, dan harus verifikasi
-	public $filters = ['login' => ['before' => ['komik', 'orang']],];
+	public $filters = ['login' => ['before' =>['komik', 'orang']],];
 }
